@@ -73,13 +73,16 @@ img {
   margin-right: auto;
 }
 /* Header section */
+.header-wrapper {
+  background-color: var(--main-color);
+}
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: var(--main-color);
+
 }
 .logo-wrapper {
 }
@@ -115,14 +118,15 @@ img {
 .main-section {
   flex-grow: 1;
 }
-.hero-section {
+.main-wrapper {
   background-color: var(--main-color);
+}
+.hero-section {
   padding-left: 15rem;
   background-image: url("/img/Rectangle\ 679.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-
 }
 .alfred {
   position: absolute;
@@ -152,13 +156,12 @@ img {
   margin-bottom: 3.4rem;
 }
 
-.btn-green {
-
-}
 .footer {
   padding-top: 6.8rem;
   padding-bottom: 6.8rem;
   background-color: var(--main-color);
+}
+.footer-wrapper {
   display: flex;
   justify-content: space-between;
 }
