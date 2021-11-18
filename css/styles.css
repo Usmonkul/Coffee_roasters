@@ -123,15 +123,15 @@ img {
 }
 .hero-section {
   padding-left: 15rem;
-  background-image: url("/img/Rectangle\ 679.png");
+  background-image: url("/img/coffee-cake.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left calc(50% + 45rem) bottom;
   background-size: contain;
 }
 .alfred {
   position: absolute;
   top: 5rem;
-  left: calc(50% - 9.5rem);
+  left: calc(50% + 3.5rem);
   width: 16rem;
   height: 16rem;
 }
