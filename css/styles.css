@@ -181,11 +181,14 @@ img {
 /* Collection section */
 .collections {
   width: 100%;
+  max-width: 144rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 .collections-wrapper {
   width: 100%;
-  max-width: 137rem;
+  max-width: 135rem;
   margin: 20px auto 20px auto;
   background-color: #F8F8F2;
   padding-bottom: 50px;
@@ -193,22 +196,22 @@ img {
 .decoration-img-1 {
   position: absolute;
   top: 6rem;
-  left: 13rem;
+  left: -9rem;
 }
 .decoration-img-2 {
   position: absolute;
   top: 50%;
-  right: 8.5rem;
+  right: -14rem;
 }
 .decoration-img-3 {
   position: absolute;
   top: 42%;
-  right: 8rem;
+  right: -16rem;
 }
 .decoration-img-4 {
   position: absolute;
   bottom: 11%;
-  left: 7rem;
+  left: -15rem;
 }
 .collections-main-heading {
   font-weight: bold;
@@ -258,4 +261,83 @@ img {
   margin: 0;
   font-size: 2.2rem;
   line-height: 3.4rem;
+}
+
+/* Features section */
+.features {
+  position: relative;
+  width: 100%;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features-wrapper {
+  width: 100%;
+  max-width: 136rem;
+  height: 70.3rem;
+  margin: 20px auto 20px auto;
+  background-color: #C99B67;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-bottom: 30rem;
+
+}
+.features-main-heading {
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 5.9rem;
+  color: #fff;
+  margin: 0;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+.feature-text {
+  width: 58rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 8rem;
+}
+.features-list {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+.features-box {
+  width: 43.3rem;
+}
+.features-box:not(:last-child) {
+  margin-right: 2rem;
+}
+.feature-img {
+  width: 43.3rem;
+  height: 50rem;
+  display: block;
+  margin-bottom: 2.8rem;
+}
+.feature-desc-heading {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.feature-desc-text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin: 0;
+}
+.feature-sticker {
+  display: block;
+  width: 14rem;
+  position: absolute;
+  top: 35%;
+  left: 1%;
 }
