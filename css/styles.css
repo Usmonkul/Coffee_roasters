@@ -84,24 +84,16 @@ img {
   padding-bottom: 4rem;
 
 }
-.logo-wrapper {
-}
-.logo-link {
-}
+
 .logo-img {
   display: block;
   width: 23.5rem;
   height: 2.4rem;
 }
-.navbar {
-
-}
 .nav-list {
   display: flex;
   align-items:center;
   list-style: none;
-}
-.nav-item {
 }
 .nav-link {
   text-decoration: none;
@@ -111,6 +103,10 @@ img {
   line-height: 1.9rem;
   letter-spacing: 1px;
   font-weight: bold;
+}
+.nav-link-header {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
 }
 .nav-item:not(:last-child) {
   margin-right: 4rem;
@@ -189,29 +185,33 @@ img {
 .collections-wrapper {
   width: 100%;
   max-width: 135rem;
-  margin: 20px auto 20px auto;
+  margin: 2rem auto 2rem auto;
   background-color: #F8F8F2;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 .decoration-img-1 {
   position: absolute;
-  top: 6rem;
-  left: -9rem;
+  top: 3%;
+  left: -7%;
+  width: 40.2rem;
 }
 .decoration-img-2 {
   position: absolute;
   top: 50%;
-  right: -14rem;
+  right: -10%;
+  width: 25.3rem;
 }
 .decoration-img-3 {
   position: absolute;
   top: 42%;
-  right: -16rem;
+  right: -12%;
+  width: 39.2rem;
 }
 .decoration-img-4 {
   position: absolute;
   bottom: 11%;
-  left: -15rem;
+  left: -10%;
+  width: 31.6rem;
 }
 .collections-main-heading {
   font-weight: bold;
@@ -267,17 +267,17 @@ img {
 .features {
   position: relative;
   width: 100%;
-  max-width: 1420px;
+  max-width: 142rem;
   margin-left: auto;
   margin-right: auto;
 }
 .features-wrapper {
   width: 100%;
-  max-width: 140rem;
+  max-width: 135rem;
   height: 70.3rem;
-  margin: 20px auto 20px auto;
+  margin: 2rem auto 2rem auto;
   background-color: #C99B67;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -349,10 +349,10 @@ img {
 }
 .intract-wrapper {
   width: 100%;
-  max-width: 140rem;
+  max-width: 137rem;
   margin: 2rem auto 2rem auto;
   background-color: var(--secondary-color);
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -374,6 +374,7 @@ img {
   right: 3%;
 }
 .instaction-list {
+  width: 100%;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -381,19 +382,13 @@ img {
   padding-right: 3rem;
   counter-reset: item;
 }
-/* .instaction-list::before {
-  content: " ";
-  background-color: red;
-  width: 3rem;
-  height: 3rem;
-  display: block;
-} */
+
 .instact-box {
   background-color:#fff;
   display: flex;
   flex-direction: column;
   padding: 2rem 2.8rem 4rem 2rem;
-  width: 43.3rem;
+  width: calc(100% / 3 -2rem);
   height: 39.6rem;
 }
 .instact-box::before {
