@@ -208,10 +208,9 @@ img {
 }
 .collections-wrapper {
   width: 100%;
-  max-width: 135rem;
   margin: 2rem auto 2rem auto;
   background-color: #F8F8F2;
-  padding-bottom: 5rem;
+  padding: 5rem 14.5rem 5rem 14.5rem;
 }
 .decoration-img-1 {
   position: absolute;
@@ -244,13 +243,14 @@ img {
   text-align: center;
   font-variant: small-caps;
   color: #000;
-  padding-top: 50px;
   padding-bottom: 80px;
   margin: 0;
 }
 .collections-list {
   width: 100%;
   max-width: 1114px;
+  margin: 0;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -259,20 +259,19 @@ img {
   align-items: center;
   list-style: none;
 }
-.collection-list-item > :first-child {
-  margin-right: 11.7rem;
+.collection-list-item:nth-child(even) {
+  flex-direction: row-reverse;
 }
-.collections-list > :nth-child(even) {
-  margin-left: 11rem;
-}
-
 .coffee-type-img {
   width: 45rem;
   height: 37.5rem;
-  display: block;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 .coffee-description {
-  width: 45rem;
+  flex-grow: 1;
+  padding-right: 11.1rem;
+  padding-left: 11.1rem;
 }
 .coffee-name {
   margin: 0;
@@ -286,26 +285,29 @@ img {
   font-size: 2.2rem;
   line-height: 3.4rem;
 }
+.coffee-desc-text:not(:last-child) {
+  margin-bottom: 1rem;
+}
 
 /* Features section */
 .features {
   position: relative;
   width: 100%;
-  max-width: 142rem;
+  max-width: 144rem;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 8rem;
 }
 .features-wrapper {
   width: 100%;
-  max-width: 135rem;
-  height: 70.3rem;
   margin: 2rem auto 2rem auto;
-  background-color: #C99B67;
-  padding-bottom: 5rem;
+  /* background-color: #7c480d; */
+  background-image: url(/img/dark-bg.jpg);
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items:center;
-  margin-bottom: 30rem;
 
 }
 .features-main-heading {
@@ -324,20 +326,16 @@ img {
   color: #fff;
   text-align: center;
   opacity: 0.8;
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 8rem;
 }
 .features-list {
   display: flex;
-  list-style: none;
-  position: absolute;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  top: 40%;
-  left: 3%;
+  margin: 0;
+  padding: 0;
 }
 .features-box {
-  width: 43.3rem;
+  /* width: 43.3rem; */
 }
 .features-box:not(:last-child) {
   margin-right: 2rem;
@@ -364,7 +362,7 @@ img {
   display: block;
   width: 14rem;
   position: absolute;
-  top: 35%;
+  top: 23%;
   left: 1%;
 }
 
@@ -373,8 +371,8 @@ img {
 }
 .intract-wrapper {
   width: 100%;
-  max-width: 137rem;
-  margin: 2rem auto 2rem auto;
+  max-width: 144rem;
+  margin: 0rem auto 2rem auto;
   background-color: var(--secondary-color);
   padding-bottom: 5rem;
   display: flex;
